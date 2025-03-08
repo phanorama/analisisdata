@@ -61,7 +61,7 @@ ax.legend()
 st.pyplot(fig)
 
 # Membuat plot hexbin
-st.subheader(f"Plot Hexbin: Hubungan RAIN dengan {selected_pollutant}")
+st.subheader(f"Plot Hexbin: Hubungan hujan (RAIN) dengan {selected_pollutant}")
 
 # Membuat figure dan axes
 fig, ax = plt.subplots(figsize=(8, 6))
