@@ -1,0 +1,11 @@
+.venv
+.ipynb_checkpoints
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyc
+*.pyo

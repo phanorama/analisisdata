@@ -1,0 +1,1 @@
+untuk menjalankan streamlit, buatlah virtual environment terlebih dahulu
