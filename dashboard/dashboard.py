@@ -13,7 +13,7 @@ Visualisasi ini menunjukkan data konsentrasi polutan PM2.5/PM10 di Guanyuan.
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_url('https://raw.githubusercontent.com/phanorama/analisisdata/refs/heads/main/dashboard/main_data.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/phanorama/analisisdata/refs/heads/main/dashboard/main_data.csv')
     df['month'] = df['month'].astype('category')
     return df
 
